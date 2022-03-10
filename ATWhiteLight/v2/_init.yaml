@@ -1,0 +1,28 @@
+chiller:
+  host: localhost
+  port: 4001
+  initial_temperature: 25
+  low_ambient_temperature_warning: 5
+  high_ambient_temperature_warning: 40
+  low_supply_temperature_warning: 5
+  high_supply_temperature_warning: 50
+  low_coolant_flow_rate_warning: 0.5
+  low_ambient_temperature_alarm: 2
+  high_ambient_temperature_alarm: 45
+  low_supply_temperature_alarm: 2
+  high_supply_temperature_alarm: 80
+  low_coolant_flow_rate_alarm: 0.3
+  connect_timeout: 10
+  command_timeout: 5
+  command_interval: 0.1
+  telemetry_interval: 7
+  watchdog_interval: 5
+lamp:
+  device_type: T4
+  connection_type: TCP
+  identifier: localhost
+  default_power: 900
+  connect_timeout: 5
+  cooldown_period: 900
+  warmup_period: 900
+  shutter_timeout: 30
