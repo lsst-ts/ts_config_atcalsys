@@ -1,0 +1,4 @@
+lamp:
+  identifier: 140.252.33.160
+chiller:
+  host: 140.252.33.70
