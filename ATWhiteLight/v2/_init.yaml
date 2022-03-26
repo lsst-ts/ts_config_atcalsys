@@ -10,11 +10,10 @@ chiller:
   low_ambient_temperature_alarm: 2
   high_ambient_temperature_alarm: 45
   low_supply_temperature_alarm: 2
-  high_supply_temperature_alarm: 80
+  high_supply_temperature_alarm: 50
   low_coolant_flow_rate_alarm: 0.3
   connect_timeout: 10
   command_timeout: 5
-  command_interval: 0.1
   telemetry_interval: 7
   watchdog_interval: 5
 lamp:
