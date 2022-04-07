@@ -1,0 +1,4 @@
+lamp:
+  identifier: 140.252.147.124
+chiller:
+  host: lanToSerialConverterChiller.tu.lsst.org

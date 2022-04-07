@@ -37,11 +37,8 @@ class ConfigTestCase(salobj.BaseConfigTestCase, unittest.TestCase):
         )
 
     def test_ATWhiteLight(self):
-        # Use env vars to find ts_ATWhiteLightSource because it uses
-        # packages that are not in the standard development Docker image.
         self.check_standard_config_files(
             sal_name="ATWhiteLight",
-            package_name="ts_ATWhiteLightSource",
-            schema_subpath="schema/whitelight.yaml",
+            module_name="lsst.ts.atwhitelight",
             config_package_root=self.config_package_root,
         )
