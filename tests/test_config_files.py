@@ -32,7 +32,7 @@ class ConfigTestCase(salobj.BaseConfigTestCase, unittest.TestCase):
     def test_ATMonochromator(self):
         self.check_standard_config_files(
             sal_name="ATMonochromator",
-            module_name="lsst.ts.monochromator",
+            module_name="lsst.ts.atmonochromator",
             config_package_root=self.config_package_root,
         )
 
