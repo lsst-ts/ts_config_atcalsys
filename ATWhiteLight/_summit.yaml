@@ -1,0 +1,6 @@
+lamp:
+  device_type: T7
+  connection_type: TCP
+  identifier: auxtel-labjack02.cp.lsst.org
+  cooldown_period: 60
+  warmup_period: 60
