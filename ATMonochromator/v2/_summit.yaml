@@ -1,1 +1,2 @@
-host: atmonochromator.cp.lsst.org
+host: auxtel-monochromator.cp.lsst.org
+port: 50000
