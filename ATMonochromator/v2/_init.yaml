@@ -1,8 +1,6 @@
-host: 127.0.0.1
-port: 50000
 connection_timeout: 10.0
 read_timeout: 20.
-write_timeout: 20.
+write_timeout: 40.
 wavelength_gr1: 320.
 wavelength_gr1_gr2: 800.
 wavelength_gr2: 1130.
