@@ -2,3 +2,4 @@ lamp:
   identifier: 139.229.170.19
 chiller:
   host: auxtel-chiller.cp.lsst.org
+  port: 4001
