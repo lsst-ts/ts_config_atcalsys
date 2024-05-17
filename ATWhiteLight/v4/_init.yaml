@@ -1,0 +1,29 @@
+chiller:
+  initial_temperature: 25
+  low_ambient_temperature_warning: 5
+  high_ambient_temperature_warning: 40
+  low_supply_temperature_warning: 5
+  high_supply_temperature_warning: 50
+  low_coolant_flow_rate_warning: 0.5
+  low_ambient_temperature_alarm: 2
+  high_ambient_temperature_alarm: 45
+  low_supply_temperature_alarm: 2
+  high_supply_temperature_alarm: 50
+  low_coolant_flow_rate_alarm: 0.3
+  connect_timeout: 10
+  command_timeout: 5
+  telemetry_interval: 7
+  watchdog_interval: 5
+lamp:
+  device_type: T4
+  connection_type: TCP
+  default_power: 900
+  connect_timeout: 5
+  cooldown_period: 900
+  warmup_period: 900
+  max_lamp_off_delay: 4
+  max_lamp_on_delay: 25
+  photo_sensor_on_voltage: 0.2
+  shutter_timeout: 30
+  max_retries: 3
+  retry_sleep: 60
